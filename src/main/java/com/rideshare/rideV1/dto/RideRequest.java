@@ -1,7 +1,9 @@
 package com.rideshare.rideV1.dto;
 
 import jakarta.validation.constraints.NotBlank;
+import lombok.Data;
 
+@Data
 public class RideRequest {
     @NotBlank(message = "Pickup location is required")
     private String pickupLocation;

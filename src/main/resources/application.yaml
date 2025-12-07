@@ -1,3 +1,9 @@
 spring:
   application:
     name: rideV1
+  data:
+    mongodb:
+      uri: mongodb+srv://aryan24bcs10305_db_user:WJaWyCpPvuqasENw@cluster0.ohsyzyu.mongodb.net/rideshare?appName=Cluster0
+jwt:
+  secret: jhgfy7979dsf9s8df79s8df79s8df79s8df7s9df7s9d8asdfgh34567
+  expiration-ms: 86400000
